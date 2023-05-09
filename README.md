@@ -1,4 +1,4 @@
-Developer Portfolio (build and designed by Larry Chen)
+Developer Portfolio (built and designed by Larry Chen)
 
 Features an interactive fishing simulator with a chance to catch unique fish!
 
