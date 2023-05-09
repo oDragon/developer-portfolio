@@ -3,7 +3,7 @@ export default [
     id: 1,
     img: "./src/images/uwatLogo.png",
     org: "UW VEX U",
-    title: "Software Team Member",
+    title: "Software Test Member",
     headline:
       "UW VEX U is a design team at Waterloo that builds and programs robots to compete in international VEX robotics competitions. With this team, I've",
     desc: [
