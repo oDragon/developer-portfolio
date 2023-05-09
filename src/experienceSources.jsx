@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    img: "/src/images/uwatLogo.png",
+    img: "./src/images/uwatLogo.png",
     org: "UW VEX U",
     title: "Software Team Member",
     headline:
