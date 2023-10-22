@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="section-line"></div>
       <div className="contact-container">
         <h1 className="contact-headline">
-          I am currently seeking internships for Fall 2023!
+          I am currently seeking internships for Summer 2024!
         </h1>
         <a href="mailto:larry.chen@uwaterloo.ca" className="hire-button">CONTACT ME</a>
       </div>

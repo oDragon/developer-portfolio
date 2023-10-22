@@ -269,6 +269,13 @@ nav {
     align-items: center;
 }
 
+.position-logo-container {
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .position-logo {
     object-fit: contain;
     width: auto;
@@ -301,7 +308,8 @@ nav {
 }
 
 .projects-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 620px);
     margin-top: 65px;
     justify-content: center;
     user-select: none;
@@ -316,6 +324,13 @@ nav {
     padding: 10px;
     margin: 2.5vh;
     position: relative;
+}
+
+.project-logo-container {
+    width: 200px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-logo {

@@ -13,7 +13,9 @@ export default function Position(props) {
   return (
     <div className="position-container">
       <a href={props.link} target="_blank">
-        <img className="position-logo" src={props.src} />
+        <div className="position-logo-container">        
+          <img className="position-logo" src={props.src} />
+        </div>
       </a>
       <div className="position-text">
         <span className="position-title">{props.title}</span> @{" "}

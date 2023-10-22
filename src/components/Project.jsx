@@ -4,7 +4,9 @@ export default function Project(props) {
   return (
     <div className="project-container">
       <a href={props.link} target="_blank">
-        <img className="project-logo" src={props.src} />
+        <div className="project-logo-container">        
+          <img className="project-logo" src={props.src} />
+        </div>
       </a>
       <div className="project-text">
         <span className="project-title">{props.title}</span>
