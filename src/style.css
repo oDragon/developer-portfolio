@@ -37,6 +37,7 @@ html::-webkit-scrollbar-track {
 }
 
 nav {
+    margin-top: 50px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -67,7 +68,7 @@ nav {
 
 .home-container {
     display: flex;
-    margin-top: 12.5%;
+    margin-top: 15%;
 }
 
 .fisher {

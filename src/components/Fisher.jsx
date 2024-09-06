@@ -91,12 +91,10 @@ export default function Fisher() {
 
   return (
     <div className="fisher" onClick={reel} onLoad={start}>
-      {bobberState != "up" && bobberState != "standby" && (
+      {(bobberState === "up" || bobberState === "standby") ?
+        <img className="fisherman-up" src={fishermanUp} /> :
         <img className="fisherman" src={fisherman} />
-      )}
-      {(bobberState === "up" || bobberState === "standby") && (
-        <img className="fisherman-up" src={fishermanUp} />
-      )}
+      }
       <img className="bobber" src={bobber} style={bobberStyle} />
       {bobberState === "plunged" && <img className="notice" src={notice} />}
       <img className="fish" src={rarity} style={fishStyle} />
