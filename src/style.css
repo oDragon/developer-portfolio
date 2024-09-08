@@ -55,6 +55,17 @@ nav {
     text-decoration: none;
 }
 
+.nav-link-mobile {
+    display: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #e93e43;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(156, 154, 154, 0.5);
+}
+
 .nav-link:hover {  
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
@@ -64,6 +75,21 @@ nav {
     width: 45px;
     margin-right: auto;
     -webkit-user-drag: none;
+}
+
+.links-container {
+    flex-direction: row;
+    align-items: center;
+}
+
+#sidebar-active {
+    display: none;
+}
+
+.menu-icon, .close-menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #e93e43;
 }
 
 .home-container {
@@ -85,6 +111,7 @@ nav {
     width: 400px;
     align-items: center;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .fisherman {
@@ -367,6 +394,150 @@ nav {
     font-size: 30px;
     position: absolute;
     right: 15px;
+}
+
+@media (max-width: 700px) {
+    #root {
+        width: 100%;
+        align-items: center;
+    }
+    nav {
+        margin-top: 5%;
+        width: 95%;
+    }
+    .nav-icon {
+        margin-left: 5%;
+    }
+    .nav-link {
+        display: none;
+    }
+    .links-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 10;
+        width: 350px;
+        background-color: #dfdcdc;
+        box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+        transition: 0.5s ease-out;
+    }
+    .nav-link-mobile {
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding: 20px 30px;
+        justify-content: flex-start;
+    }
+    .menu-icon, .close-menu-icon {
+        display: block;
+    }
+    .close-menu-icon {
+        padding: 20px 30px;
+    }
+    #sidebar-active:checked ~ .links-container {
+        right: 0;
+    }
+    #sidebar-active:checked ~ #overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        backdrop-filter: blur(4px);
+    }
+    .home-container {
+        flex-direction: column;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .title {
+        width: 90%;
+    }
+    .fisher {
+        margin-top: 15%;
+        margin-left: 0px;
+        height: 350px;
+        width: 350px;
+        align-self: center;
+    }
+    .bobber {
+        top: 225px;
+        left: 275px;
+    }
+    .fish {
+        top: 263px;
+        left: 242px;
+    }
+    .notice {
+        top: 180px;
+        left: 290px;
+    }
+    @keyframes bounce {
+        0% {
+            top: 180px;
+        }
+        50% {
+            top: 160px;
+            left: 300px;
+        }
+    }
+    .section-header {
+        margin-left: 5%;
+    }
+    .section-line {
+        margin-left: 5%;
+    }
+    .about-container {
+        flex-direction: column;
+    }
+    .about-blurb {
+        margin-left: 5%;
+        padding: 0px;
+        width: 90%;
+    }
+    .languages {
+        display: none;
+    }
+    .position-container {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .position-text {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-container {
+        width: 90%;
+        align-items: center;
+    }
+    .project-logo-container {
+        width: 100px;
+    }
+    .project-logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .project-link {
+        top: 5px;
+        right: 10px;
+        font-size: 25px;
+    }
+    .contact-headline {
+        margin-left: 5%;
+        width: 90%;
+    }
+
 }
 
 .contact-container {
