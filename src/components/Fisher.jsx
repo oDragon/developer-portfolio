@@ -67,7 +67,7 @@ export default function Fisher() {
     setPositionY(0);
     setTimeout(() => setBobberState("floating"), 100);
     setRarity(getFishRarity());
-    var randomTime = Math.floor(Math.random() * 2000) + 3000;
+    var randomTime = Math.floor(Math.random() * 2000) + 2000;
     setTimeout(plunge, randomTime);
   }
 

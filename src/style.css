@@ -312,8 +312,8 @@ nav {
     object-fit: contain;
     width: auto;
     height: auto;
-    max-width: 275px;
-    max-height: 275px;
+    max-width: 200px;
+    max-height: 200px;
     -webkit-user-drag: none;
 }
 

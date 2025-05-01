@@ -1,5 +1,23 @@
 export default [
   {
+    id: 7,
+    title: "LabelLens",
+    logo: "./labellensLogo.png",
+    description:
+      "LabelLens is a web app that scans medicine or skincare labels and provides detailed information about the product's ingredients. It won Best AI Safety & Responsibility Hack at GenAI Genesis 2025!",
+    link: "https://youtu.be/23GoS9zQdn4",
+    time: "March 2025 - March 2025",
+  },
+  {
+    id: 6,
+    title: "TuringSketch",
+    logo: "./turingsketchLogo.png",
+    description:
+      "Turing Sketch is an online multiplayer game where players guess which drawing is AI-generated. It won Best Use of Streamlit at DeltaHacks XI!",
+    link: "https://youtu.be/O86vVN7B524",
+    time: "January 2025 - January 2025",
+  },
+  {
     id: 5,
     title: "Course Clutch",
     logo: "./courseClutchLogo.png",

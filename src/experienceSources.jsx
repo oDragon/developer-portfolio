@@ -1,5 +1,21 @@
 export default [
   {
+    id: 4,
+    img: "./huaweiLogo.png",
+    org: "Huawei Technologies",
+    title: "Software Engineer",
+    headline:
+      "Huawei develops a plethora of different software products, but I worked at their Compiler Research Lab in Canada.  With Huawei, I've",
+    desc: [
+      "Contributed to Huawei’s Ascend compiler using C++, Clang, and Linux, with focus on improving front-end compilation and fine-tuning MLIR/LLVM code optimization",
+      "Developed multiple MLIR passes to enhance performance, extend functionality, and facilitate dialect lowering",
+      "Researched compiler improvements by reading technical papers, studying IR, and writing technical documentation",
+      "Resolved compiler bugs using the MLIR API, enabling 27 previously failing CI test cases to pass",
+    ],
+    time: "January 2025 - April 2025",
+    link: "https://www.huawei.com/en/"
+  },
+  {
     id: 3,
     img: "./swiLogo.png",
     org: "Systems With Intelligence",
