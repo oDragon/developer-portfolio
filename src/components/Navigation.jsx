@@ -4,10 +4,14 @@ import bobber from "/src/images/bobber.png";
 export default function Navigation() {
 
   const downloadPDF = () => {
-    const link = document.createElement("a");
-    link.href = "./Larry_Chen_Resume.pdf";
-    link.download = "Larry_Chen_Resume.pdf";
-    link.click();
+    const pdfUrl = "./Larry_Chen_Resume.pdf";
+    window.open(pdfUrl, "_blank");
+
+    // Trigger download
+    // const link = document.createElement("a");
+    // link.href = pdfUrl;
+    // link.download = "Larry_Chen_Resume.pdf";
+    // link.click();
   }
 
   return (

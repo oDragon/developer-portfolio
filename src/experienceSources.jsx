@@ -1,15 +1,30 @@
 export default [
   {
+    id: 5,
+    img: "./magiLogo.png",
+    org: "MAGI Inc.",
+    title: "Software Engineer Intern",
+    headline: "MAGI Inc. is an AI startup based in New York that primarily develops mobile apps for android and iOS. With MAGI, I've",
+    desc: [
+      "Developed a cross-platform React Native app (web/iOS/Android) built with TypeScript, Node.js, and Expo that uses AI to evaluate job candidates, generate assessments, and connect job seekers with employers",
+      "Implemented resume parsing via the OpenAI API, storing the structured data in Google Cloud Storage",
+      "Extended our GraphQL API in Python to store device information in Firebase for 720+ users",
+      "Enhanced the app by adding toasts, deep links, PostHog replays, and automated emails through SendGrid"
+    ],
+    time: "September 2025 - Present",
+    link: "https://magi.inc/"
+  },
+  {
     id: 4,
     img: "./huaweiLogo.png",
     org: "Huawei Technologies",
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     headline:
       "Huawei develops a plethora of different software products, but I worked at their Compiler Research Lab in Canada.  With Huawei, I've",
     desc: [
       "Contributed to Huawei’s Ascend compiler using C++, Clang, and Linux, with focus on improving front-end compilation and fine-tuning MLIR/LLVM code optimization",
       "Developed multiple MLIR passes to enhance performance, extend functionality, and facilitate dialect lowering",
-      "Researched compiler improvements by reading technical papers, studying IR, and writing technical documentation",
+      "Researched compiler optimization by reading technical papers, studying IR, and writing technical documentation",
       "Resolved compiler bugs using the MLIR API, enabling 27 previously failing CI test cases to pass",
     ],
     time: "January 2025 - April 2025",
@@ -19,14 +34,13 @@ export default [
     id: 3,
     img: "./swiLogo.png",
     org: "Systems With Intelligence",
-    title: "Software Developer",
+    title: "Software Developer Intern",
     headline:
       "Systems With Intelligence is a sofware company that develops solutions for remote asset monitoring.  With SWI, I've",
     desc: [
-      "Furthered development of a React Native mobile app built with Metro, Xcode, and Node.js that interacts with over 9,000 surveillance cameras in electrical substations around the world",
+      "Furthered development of a React Native mobile app (available as SWI-IoT on iOS and Android) built with Node.js, Metro, and Xcode that configures and interacts with 9,000+ surveillance cameras in electrical substations",
       "Developed an interactive map leveraging the Google Maps API that plots users’ cameras on a map",
       "Added backend routes to our API using Express.js that allows the app to retrieve information from the database",
-      "Resolved 30+ Jira tickets, reviewed pull requests on BitBucket, and participated in Scrum meetings",
       "Spearheaded the app’s unit testing framework using Jest and increased test coverage from 0% to 59%",
     ],
     time: "May 2024 - August 2024",
@@ -40,11 +54,10 @@ export default [
     headline:
       "Cynorix is a tech startup that develops products relating to online security. With Cynorix, I've",
     desc: [
-      "Developed a two-factor authentication service and a file sharing web application hosted on Firebase that utilize MongoDB and Cloud Firestore for database management",
-      "Established a webhook on our Firebase server using Node.js, Express.js, Postman, and the Stripe API that monitors and handles customer payments, invoices, and subscriptions with a success rate of 99.7%",
+      "Developed a 2FA web application using React, Node.js, and Express.js with web hosting managed by Firebase and database management handled with MongoDB and Cloud Firestore",
+      "Established a webhook using Postman and Stripe’s API to handle customer payments with a 99.7% success rate",
       "Set up a CI/CD pipeline using GitLab and PowerShell to run 170+ unit and integration tests before deployment",
-      "Updated the company android app using Kotlin and Android Studio, resulting in a 100% reduction in crashes",
-      "Developed a user-friendly web page using React and Axios that allows users to track their payment history",
+      "Updated a 2FA Android app using Kotlin and Android Studio, resulting in a 100% reduction in crashes",
     ],
     time: "September 2023 - December 2023",
     link: "https://www.cynorix.com/"
