@@ -1,5 +1,18 @@
 export default [
   {
+    id: 6,
+    img: "./endexLogo.png",
+    org: "Endex",
+    title: "Software Engineer Intern",
+    headline: "Endex is an AI built for Excel and is backed by OpenAI. With Endex, I'm",
+    desc: [
+      "Building an AI agent with Python, Next.js, and TypeScript that integrates with Excel to accelerate and streamline data analysis",
+      "Developing a file uploader using AWS S3, PostgreSQL, and Temporal to let users cite files in their prompts",
+    ],
+    time: "May 2026 - Present",
+    link: "https://endex.ai/"
+  },
+  {
     id: 5,
     img: "./magiLogo.png",
     org: "MAGI Inc.",
@@ -11,7 +24,7 @@ export default [
       "Extended our GraphQL API in Python to store device information in Firebase for 720+ users",
       "Enhanced the app by adding toasts, deep links, PostHog replays, and automated emails through SendGrid"
     ],
-    time: "September 2025 - Present",
+    time: "September 2025 - December 2025",
     link: "https://magi.inc/"
   },
   {
